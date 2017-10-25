@@ -1,5 +1,5 @@
 (ns pdenno.nn
-  "Simple backpropagation neural nets"
+  "Simple backpropagation neural net example"
   (:require [clojure.pprint :refer (cl-format pprint)]
             [clojure.set :as set]
             [clojure.spec.alpha :as s]))
