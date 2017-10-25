@@ -2,7 +2,8 @@
   "Unit test for simple backpropagation neural nets"
   (:require [clojure.test :refer :all]
             [clojure.spec.test.alpha :as stest]
-            [clojure.set :as set]))
+            [clojure.set :as set]
+            [pdenno.nn :as nn]))
 
 ;;; POD If you recompile nn.clj after evaluating this, it won't happen. 
 (stest/instrument) ; Instrument everything
