@@ -1,4 +1,4 @@
-(ns gov.nist.sinet.nn
+(ns pdenno.nn
   "Simple backpropagation neural nets"
   (:require [clojure.pprint :refer (cl-format pprint)]
             [clojure.set :as set]
