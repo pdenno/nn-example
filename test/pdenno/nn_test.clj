@@ -3,7 +3,7 @@
   (:require [clojure.test :refer :all]
             [clojure.spec.test.alpha :as stest]
             [clojure.set :as set]
-            [pdenno.nn :as nn]))
+            [pdenno.nn :as nn :refer :all]))
 
 ;;; POD If you recompile nn.clj after evaluating this, it won't happen. 
 (stest/instrument) ; Instrument everything
